@@ -2,7 +2,6 @@
 
 import numpy as np
 from astroquery.simbad import Simbad
-from taskinit import tb
 import shutil
 import os
 
