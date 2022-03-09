@@ -2,6 +2,7 @@
 
 import numpy as np
 from astroquery.simbad import Simbad
+from taskinit import tb
 import shutil
 import os
 
@@ -13,6 +14,7 @@ correctForPM
 
 Adjust the coordinates of the ALMA data to replicate what the image would look like if obsreved at a 
 different time based on the proper motion of the source.
+WARNING: Currently not working in casa versions 6+
 
 *required inputs*
 inms - The original .ms directory.
